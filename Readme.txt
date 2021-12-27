@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: NiceAdmin
-Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+Template Name: iPortfolio
+Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
