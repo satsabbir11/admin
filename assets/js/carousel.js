@@ -3,12 +3,15 @@
  */
 
  var myCarousel = document.querySelector('#carouselExampleCaptions')
- var carousel = new bootstrap.Carousel(myCarousel, { interval: 3000, wrap: true })
+ var carousel = new bootstrap.Carousel(myCarousel, { interval: 333000, wrap: true })
  var slides = document.querySelectorAll('.carousel .carousel-item')
  
  slides.forEach((el) => {
    // number of slides per carousel-item
-   const minPerSlide = slides.length
+   let minPerSlide = slides.length
+   if(minPerSlide>3){
+     minPerSlide=3;
+   }
    let next = el.nextElementSibling
    for (var i = 1; i < minPerSlide; i++) {
      if (!next) {
